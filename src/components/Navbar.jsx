@@ -71,7 +71,7 @@ const Navbar = ({ NavOpen }) => {
     {
       label: 'Contact',
       link: '#contact',
-      className: 'nav-link md:hidden'
+      className: 'nav-link md:hidden!'
     }
   ];
   return (
