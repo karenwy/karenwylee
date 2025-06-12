@@ -6,15 +6,15 @@
 /**
  * Node modules
  */
-// import { gsap } from "gsap";
-// import { ScrollTrigger } from "gsap/ScrollTrigger";
-// import { useGSAP } from '@gsap/react';
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { useGSAP } from '@gsap/react';
 
 /**
  * Register gsap plugins
  */
 
-//gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies
+gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies
 
 /**
  * Components
@@ -37,27 +37,32 @@ const reviews = [
 ];
 
 const Review = () => {
-  // useGSAP(() => {
-  //   gsap.to('.scrub-slide', {
-  //     scrollTrigger: {
-  //       trigger: '.scrub-slide', 
-  //       start: '0 80%',
-  //       end: 'bottom 80%',
-  //       scrub: true,
-  //       markers: true
-  //     }, 
-  //     x: -180
-  //   })
-  // })
+  useGSAP(() => {
+    gsap.to('.slide-left', {
+      scrollTrigger: {
+        trigger: '.slide-left', 
+        start: '-10% bottom',
+        end: '+=800',
+        scrub: true,
+        // markers: true
+      }, 
+      x: 0, 
+      opacity: 1,
+      duration: 2, 
+      delay: 0.2,
+      ease: 'power2.out'
+    })
+  })
 
   return (
     <section id="reviews" className="section overflow-hidden">
       <div className="container">
-        <h2 className="headline-2 mb-8 reveal-up">
+        <h2 className="headline-2 mb-8 slide-left">
           Testimonials 
         </h2>
 
-        <div className="scrub-slide flex items-stretch gap-3 w-fit">
+        {/* <div className="scrub-slide flex items-stretch gap-3 w-fit"> */}
+        <div className="grid gap-4 lg:grid-cols-2 slide-left">
           {reviews.map(({content, name, jobTitle, company}, key) => (
             <ReviewCard 
               key={key}

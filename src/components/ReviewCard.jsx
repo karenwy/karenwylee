@@ -17,7 +17,7 @@ const ReviewCard = ({
   return (
     <div className="bg-zinc-800 p-5 rounded-xl min-w-[320px] flex flex-col lg:min-w-[420px]">
 
-      <p className="text-zinc-400 mb-6 md:min-h-[30vh] min-h-[50vh]">{content}</p>
+      <p className="text-zinc-400 mb-6 lg:min-h-[35vh]">{content}</p>
 
       <div className="">
         <hr className="h-px mb-4 bg-zinc-600 border-0"></hr>
