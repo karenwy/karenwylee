@@ -14,7 +14,7 @@
  * Register gsap plugins
  */
 
-gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies
+//gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies
 
 /**
  * Components
