@@ -42,7 +42,7 @@ const Hero = () => {
 
         <div className="hidden lg:block">
           <figure className="w-full max-w-[480px] ml-auto bg-gradient-to-t from-violet-700 via-35% via-violet-700/20 to-80% rounded-[60px] overflow-hidden ">
-            <img src="/images/logo-white-text-transparent.png" width={656} height={800} alt="illustration" className="w-full" />
+            <img src="/images/icon-white-square.png" width={656} height={800} alt="illustration" className="w-full" />
           </figure>
         </div>
       </div>
