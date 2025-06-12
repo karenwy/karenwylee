@@ -6,10 +6,9 @@
 /**
  * Node modules
  */
-import { ReactLenis } from 'lenis/react'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from '@gsap/react';
+// import { gsap } from "gsap";
+// import { ScrollTrigger } from "gsap/ScrollTrigger";
+// import { useGSAP } from '@gsap/react';
 
 /**
  * Register gsap plugins
@@ -38,18 +37,18 @@ const reviews = [
 ];
 
 const Review = () => {
-  useGSAP(() => {
-    gsap.to('.scrub-slide', {
-      scrollTrigger: {
-        trigger: '.scrub-slide', 
-        start: '0 80%',
-        end: 'bottom 80%',
-        scrub: true,
-        markers: true
-      }, 
-      x: -180
-    })
-  })
+  // useGSAP(() => {
+  //   gsap.to('.scrub-slide', {
+  //     scrollTrigger: {
+  //       trigger: '.scrub-slide', 
+  //       start: '0 80%',
+  //       end: 'bottom 80%',
+  //       scrub: true,
+  //       markers: true
+  //     }, 
+  //     x: -180
+  //   })
+  // })
 
   return (
     <section id="reviews" className="section overflow-hidden">
