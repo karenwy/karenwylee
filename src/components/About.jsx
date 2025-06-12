@@ -35,7 +35,7 @@ const About = () => {
                 </div>
               ))
             }
-            {/* <img src="/images/logo-white-text-transparent.png" width={40} height={40} alt="" className="" /> */}
+            {/* <img src="/images/logo-white-text-transparent.png" width={30} height={30} alt="Logo" className="ml-auto md:w-[40px] md:h-[40px]" /> */}
             <p className="ml-auto md:text-xl lg:text-2xl">&lt; karen lee &gt;</p>
           </div>
         </div>
