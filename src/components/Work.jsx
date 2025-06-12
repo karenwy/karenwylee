@@ -49,7 +49,7 @@ const works = [
 
 const Work = () => {
   return (
-    <section id="section" className="section">
+    <section id="work" className="section">
       <div className="container">
         <h2 className="headline-2 mb-8">
           My portfolio highlights
