@@ -19,10 +19,8 @@ const ReviewCard = ({
 
       <p className="text-zinc-400 mb-6 md:min-h-[30vh] min-h-[50vh]">{content}</p>
 
-      
-
       <div className="">
-        <hr class="h-px mb-4 bg-zinc-600 border-0"></hr>
+        <hr className="h-px mb-4 bg-zinc-600 border-0"></hr>
         <p className="">
           <span className="text-xl">{name}</span>
           
