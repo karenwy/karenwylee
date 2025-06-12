@@ -18,7 +18,7 @@ const About = () => {
   return (
     <section id="about" className="section">
       <div className="container">
-        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12">
+        <div className="bg-zinc-800/50 p-7 rounded-2xl md:p-12 reveal-up">
           <p className="text-zinc-300 mb-4 md:mb-9 md:text-xl md:max-w-[60ch]">
             Hello! I&apos;m Karen, a web developer with a passion for building stylish, high-performing websites. By combining creative design with technical expertise, I turn your ideas into modern digital experiences that look great and work seamlessly.
           </p>
