@@ -4,67 +4,20 @@
  */
 
 /**
- * Node modules
- */
-import { ReactLenis } from 'lenis/react'
-import { gsap } from "gsap";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { useGSAP } from '@gsap/react';
-
-/**
- * Register gsap plugins
- */
-
-gsap.registerPlugin(useGSAP, ScrollTrigger); // register the hook to avoid React version discrepancies
-
-/**
  * Components
  */
-import Header from "./components/Header";
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Skills from "./components/Skills";
-import Work from "./components/Work";
-import Review from "./components/Review";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import Home from './Pages/Home'
 
-const App = () => {
-
-  useGSAP(() => {
-    const elements = gsap.utils.toArray('.reveal-up');
-    //console.log(elements);
-    elements.forEach((element) => {
-      gsap.to(element, {
-        scrollTrigger: {
-          trigger: element,
-          start: '-100 bottom',
-          end: 'bottom 80%',
-          scrub: true, 
-          //markers: true
-        },
-        y: 0,
-        opacity: 1, 
-        duration:1, 
-        ease: 'power2.out'
-      })
-    });
-  })
+function App() {
 
   return (
-    <ReactLenis root>
-      <Header />
-      <main>
-        <Hero />
-        <About />
-        <Skills />
-        <Work />
-        <Review />
-        <Contact />
-      </main>
-      <Footer />
-    </ReactLenis>
+    <Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
+    </Router>
   )
 }
 
-export default App;
+export default App
