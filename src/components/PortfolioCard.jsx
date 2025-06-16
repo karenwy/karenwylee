@@ -7,6 +7,7 @@
  * Node modules
  */
 import PropTypes from "prop-types";
+import { Link } from "react-router-dom";
 
 const PortfolioCard = ({
   imgSrc, 
@@ -46,9 +47,9 @@ const PortfolioCard = ({
         </div>
       </div>
 
-      <a href={projectLink} target="_blank" className="absolute inset-0">
+      <Link to={projectLink} className="absolute inset-0">
           
-      </a>
+      </Link>
 
     </div>
   )

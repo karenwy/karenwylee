@@ -13,7 +13,7 @@ const works = [
     imgSrc: '/images/work-off-your-cake-image.jpg',
     title: 'Cake Calorie Calculator',
     tags: ['HTML', 'CSS', 'jQuery'],
-    projectLink: 'https://workyourcakeoff.co.uk/'
+    projectLink: '/cake'
   },
   {
     imgSrc: '/images/project-2.jpg',

@@ -8,6 +8,7 @@
  */
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
+import Cake from './Pages/Cake'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/cake" element={<Cake />} />
       </Routes>
     </Router>
   )
