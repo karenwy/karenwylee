@@ -53,10 +53,10 @@ const HotOffTheWok = () => {
       <main>
         <section id="CaseStudy" className="section">
           <div className="container">
-            <h1 className='headline-1 mb-2'>Case Study: Cobalt Health - Diagnostic imaging</h1>
+            <h1 className='headline-1 mb-2'>Case Study: Hot Off the Wok - Lee Kum Kee</h1>
             <div className="flex flex-wrap items-center gap-2 mb-8">
                 {
-                  works[3].tags.map((label, key) => (
+                  works[5].tags.map((label, key) => (
                     <span key={key} className="h-8 text-sm text-zinc-50 bg-violet-300/50 grid items-center px-3 rounded-lg">
                       {label}
                     </span>
@@ -64,20 +64,13 @@ const HotOffTheWok = () => {
                 }
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
-              <p>Cobalt Health (Cobalt) is a medical charity providing diagnostic imaging to support the NHS and other healthcare providers, using the very latest state-of-the-art technology. They help 130,000 patients each year through their imaging centres in Cheltenham and Birmingham, using mobile MRI, PET/CT and CT scanners.</p>
+              <p>Lee Kum Kee (LKK) is a global sauce brand, focusing heavily on authentic Asian and Chinese sauces. LKK sauces are a popular choice and are available in all leading supermarket chains, including Tesco, Sainsbury's, Waitrose, Asda, Morrisons as well as all Chinese grocery shops and cash and carries.</p>
             </div>
             <div className='reveal-up mb-6'>
-              <h2 className='headline-2 mb-4'>Main site</h2>
-              <p className='mb-2'>10 Yetis designed and developed a new website for Cobalt on the WordPress Content Management System (CMS). Using a popular CMS allowed us to include lots of required functionality which could be easily updated over time. It also allows Cobalt's internal team to make edits to the content very simply and quickly.</p>
-              <p className='mb-4'>When we started the project we studied the original website's research and statistics, and created a more modern site that improved user experience and made the content easier to digest. To do this we focused on making important CTAs stand out, added user-friendly navigation, included interactive elements such as animation and condensed down the amount of content on the site.</p>
-              <p>The site can be viewed here: <a href="https://www.cobalthealth.co.uk/" target='_blank' className='underline'>https://www.cobalthealth.co.uk/</a></p>
-            </div>
-            <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
-            <div className='reveal-up mb-6'>
-              <h2 className='headline-2 mb-4'>Photo Competition Subdomain</h2>
-              <p className='mb-2'>We also built a separate standalone site, for Cobalt's charity “Capture a Moment for Cobalt” photography competition on a subdomain. The photo competition raised money to support teenagers and young adults with cancer by providing a specialist nurse.</p>
-              <p className='mb-4'>For this project we needed different access for different users to enable the submission, approval, and judging process. Firstly, we needed a publicly accessible gallery of submissions; these submissions are only visible if an admin user has approved this. Secondly, we needed a password protected page that allows users to upload their photos and information. We needed to make sure the uploaded files were image formats and that each photo had a title to describe the photo. Then, we needed another password protected page for the admin dashboard. The admin dashboard includes all the submissions and information, and the admins can approve photos to be added to the public gallery page and the judging page. The admin dashboard also shows how many votes each photo has received, which will be used to announce the winner. Lastly, the judges page - each judge has their own password protected dashboard that allows them to view the photo submissions (no user information) and enables them to make their vote.</p>
-              <p>The site can be viewed here: <a href="https://photocompetition.cobalthealth.co.uk/" target='_blank' className='underline'>https://photocompetition.cobalthealth.co.uk/</a></p>
+              <p className='mb-2'>When LKK collaborated with celebrity chef Ching He Huang on a 'Hot Off the Wok' mini-series we helped create a site focusing on this series.</p>
+              <p className='mb-2'>This series included video recipes demonstrated by chefs in popular Hong Kong Restaurants, Ching's own recipes and recipes inspired by LKK sauces.</p>
+              <p className='mb-2'>For this series we created a landing page with data capture functionality, for a competition campaign to win either plane tickets to Hong Kong, dining experience in London for 2 or exclusive Lee Kum Kee gift sets. This was used to gain more brand awareness in the UK and to increase the size of their mailing list. The website features the form to enter the competition, the video recipes mentioned above and some information about celebrity chef Ching He Huang and LKK as a brand.</p>
+              <p>The site can be viewed here: <a href="https://hotoffthewok.co.uk/" target='_blank' className='underline'>https://hotoffthewok.co.uk/</a></p>
             </div>
           </div>
         </section>
