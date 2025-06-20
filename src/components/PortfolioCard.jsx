@@ -40,7 +40,7 @@ const PortfolioCard = ({
 
         </div>
 
-        <div className="w-11 h-11 rounded-lg grid place-items-center bg-violet-300 text-zinc-950 shirnk-0">
+        <div className="w-11 h-11 rounded-lg grid place-items-center bg-violet-300 text-zinc-950 shrink-0">
           <span className="material-symbols-rounded" aria-hidden="true">
             arrow_outward
           </span>
