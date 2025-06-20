@@ -63,12 +63,23 @@ const Cake = () => {
                 ))
               }
             </div>
-            <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4">
-                <p className="text-zinc-300 md:text-lg">
+            <div className='grid place-items-center md:grid-cols-2 gap-2'>
+              <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted>
+                <source src="/images/cake-vid.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+              <video className='w-[450px] rounded-xl mb-4 hidden md:block' controls autoPlay muted loop>
+                <source src="/images/cake-load-vid.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+              </video>
+            </div>
+            <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 reveal-up">
+                <p className="text-zinc-300 md:text-lg mb-2">
                   The "Cake Calorie Calculator" website is a playful yet insightful tool designed to help users estimate how long they would need to type to burn off the calories from a variety of snacks that may be consumed at the office (or home office). 
                 </p>
+                <a href="https://workyourcakeoff.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded" aria-hidden="true">open_in_new</span></a>
             </div>
-            <div className='mb-6'>
+            <div className='mb-6 reveal-up'>
               <p>This was created in response to a current topic of interest and needed to be developed swiftly as a reactive project in collaboration with the PR team. The site was completed in just two days, which included design prototypes and development. I worked closely with the designer to ensure that both the visual design and functionality met a high standard.</p>
             </div>
           <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
