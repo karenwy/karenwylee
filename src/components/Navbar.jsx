@@ -8,11 +8,17 @@
  */
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
+import { useLocation } from "react-router-dom";
+import { works } from "./Work";
 
 const Navbar = ({ NavOpen }) => {
 
   const lastActiveLink = useRef();
   const activeBox = useRef();
+
+  const location = useLocation();
+  const path = location.pathname;
+  const isCaseStudy = path.includes("case-study");
 
   //set inital active box postitioned on the active menu item
   const initActiveBox = () => {
@@ -74,16 +80,32 @@ const Navbar = ({ NavOpen }) => {
       className: 'nav-link md:hidden!'
     }
   ];
+
   return (
     <nav className={"navbar " + (NavOpen ? 'active': '')}>
       {
+        isCaseStudy ? 
+        <>
+          <a href={navItems[0].link} key={navItems[0].key} ref={navItems[0].ref} className={navItems[0].className} onClick={activeCurrentLink}>
+            {navItems[0].label}
+          </a>
+          {
+          works.map(({ title, projectLink }, key) => 
+          (
+            <a href={projectLink} key={key} className="nav-link" onClick={activeCurrentLink}>
+              {title}
+            </a>
+          ))
+        }
+        </>          
+        :        
         navItems.map(({ label, link, className, ref }, key) => 
         (
           <a href={link} key={key} ref={ref} className={className} onClick={activeCurrentLink}>
             {label}
           </a>
         ))
-      }
+      }      
       <div className="active-box" ref={activeBox}></div>
     </nav>
   )
