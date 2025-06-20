@@ -9,6 +9,9 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Home from './Pages/Home'
 import Cake from './Pages/CaseStudy/Cake'
+import TripMakes from './Pages/CaseStudy/TripMates'
+import Alertr from './Pages/CaseStudy/Alertr'
+import CobaltHealth from './Pages/CaseStudy/CobaltHealth'
 
 function App() {
 
@@ -17,6 +20,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/case-study/cake" element={<Cake />} />
+        <Route path="/case-study/trip-mates" element={<TripMakes />} />
+        <Route path="/case-study/alertr" element={<Alertr />} />
+        <Route path="/case-study/cobalt-health" element={<CobaltHealth />} />
+
       </Routes>
     </Router>
   )
