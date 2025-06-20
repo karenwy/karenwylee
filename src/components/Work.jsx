@@ -37,7 +37,7 @@ export const works = [
     imgSrc: '/images/project-5.jpg',
     title: 'Olu Olu Foods',
     tags: ['Shopify', 'CSS'],
-    projectLink: '/case/study/hot-of-the-wok'
+    projectLink: '/case/study/hot-off-the-wok'
   },
   {
     imgSrc: '/images/project-6.jpg',

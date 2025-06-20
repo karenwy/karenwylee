@@ -12,6 +12,7 @@ import Cake from './Pages/CaseStudy/Cake'
 import TripMakes from './Pages/CaseStudy/TripMates'
 import Alertr from './Pages/CaseStudy/Alertr'
 import CobaltHealth from './Pages/CaseStudy/CobaltHealth'
+import HotOffTheWok from './Pages/CaseStudy/HotOffTheWok'
 import ScrollToTop from './components/ScrollToTop'
 
 function App() {
@@ -25,6 +26,7 @@ function App() {
         <Route path="/case-study/trip-mates" element={<TripMakes />} />
         <Route path="/case-study/alertr" element={<Alertr />} />
         <Route path="/case-study/cobalt-health" element={<CobaltHealth />} />
+        <Route path="/case-study//case/study/hot-of-the-wok" element={<HotOffTheWok />} />
       </Routes>
     </Router>
   )
