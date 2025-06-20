@@ -64,7 +64,7 @@ const TripMakes = () => {
                 }
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
-              <p className='mb-2'>Trip Mates was built to simplify the chaos of group holiday planning. Whether it's a weekend escape, a summer trip abroad, or a team-building retreat, Trip Mates helps users effortlessly align on destinations, dates, duration, activities, and budget. No more endless message threads, miscommunication, or indecision.</p>
+              <p className='mb-2'>Trip Mates was created for our client, <a href="https://www.hotukdeals.com/" target='_blank' className='underline'>hotukdeals</a>. It was built to simplify the chaos of group holiday planning. Whether it's a weekend escape, a summer trip abroad, or a team-building retreat, Trip Mates helps users effortlessly align on destinations, dates, duration, activities, and budget. No more endless message threads, miscommunication, or indecision.</p>
               <p>Gathering all the submissions and summarising it, the tool slogan is; “Just tell us what information you need, and we'll handle the rest!”</p>
             </div>
             <div className='reveal-up mb-6'>
