@@ -37,13 +37,13 @@ export const works = [
     imgSrc: '/images/project-5.jpg',
     title: 'Olu Olu Foods',
     tags: ['Shopify', 'CSS'],
-    projectLink: '/case/study/hot-off-the-wok'
+    projectLink: '/case-study/olu-olu-foods'
   },
   {
     imgSrc: '/images/project-6.jpg',
     title: 'Hot Off The Wok',
     tags: ['HTML', 'CSS', 'Javascript', 'jQuery'],
-    projectLink: '/case/study/hot-of-the-wok'
+    projectLink: '/case-study/hot-of-the-wok'
   },
 ];
 

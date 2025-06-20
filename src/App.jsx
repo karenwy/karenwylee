@@ -26,7 +26,7 @@ function App() {
         <Route path="/case-study/trip-mates" element={<TripMakes />} />
         <Route path="/case-study/alertr" element={<Alertr />} />
         <Route path="/case-study/cobalt-health" element={<CobaltHealth />} />
-        <Route path="/case-study//case/study/hot-of-the-wok" element={<HotOffTheWok />} />
+        <Route path="/case-study/hot-of-the-wok" element={<HotOffTheWok />} />
       </Routes>
     </Router>
   )
