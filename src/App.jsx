@@ -12,18 +12,19 @@ import Cake from './Pages/CaseStudy/Cake'
 import TripMakes from './Pages/CaseStudy/TripMates'
 import Alertr from './Pages/CaseStudy/Alertr'
 import CobaltHealth from './Pages/CaseStudy/CobaltHealth'
+import ScrollToTop from './components/ScrollToTop'
 
 function App() {
 
   return (
     <Router>
+      <ScrollToTop />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/case-study/cake" element={<Cake />} />
         <Route path="/case-study/trip-mates" element={<TripMakes />} />
         <Route path="/case-study/alertr" element={<Alertr />} />
         <Route path="/case-study/cobalt-health" element={<CobaltHealth />} />
-
       </Routes>
     </Router>
   )
