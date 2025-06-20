@@ -11,7 +11,7 @@ import PortfolioCard from "./PortfolioCard";
 export const works = [
   {
     imgSrc: '/images/work-off-your-cake-image.jpg',
-    title: 'Cake Calorie Calculator',
+    title: 'Cake Calculator',
     tags: ['HTML', 'CSS', 'Javascript', 'jQuery'],
     projectLink: '/case-study/cake'
   },
@@ -42,7 +42,7 @@ export const works = [
   {
     imgSrc: '/images/project-6.jpg',
     title: 'Hot Off The Wok',
-    tags: ['HTML', 'CSS', 'Javascript', 'jQuery'],
+    tags: ['PHP', 'HTML', 'CSS', 'Javascript', 'jQuery'],
     projectLink: '/case-study/hot-of-the-wok'
   },
 ];
