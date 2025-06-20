@@ -34,9 +34,10 @@ const Hero = () => {
             <ButtonPrimary 
               label="Download CV" icon="download"
             />
-            <ButtonOutline
+            <a href="#about"><ButtonOutline
               label="View more" icon="keyboard_arrow_down"
             />
+            </a>
           </div>
         </div>
 
