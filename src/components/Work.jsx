@@ -16,31 +16,31 @@ export const works = [
     projectLink: '/case-study/cake'
   },
   {
-    imgSrc: '/images/project-2.jpg',
+    imgSrc: '/images/trip-mates-image.png',
     title: 'Trip Mates',
     tags: ['PHP', 'MySQL', 'HTML', 'CSS', 'jQuery'],
     projectLink: '/case-study/trip-mates'
   },
   {
-    imgSrc: '/images/project-3.jpg',
+    imgSrc: '/images/alertr-image.jpg',
     title: 'Alertr',
     tags: ['PHP', 'CodeIgniter', 'MySQL', 'HTML', 'CSS'],
     projectLink: '/case-study/alertr'
   },
   {
-    imgSrc: '/images/project-4.jpg',
+    imgSrc: '/images/cobalt-health-image.png',
     title: 'Cobalt Health',
     tags: ['WordPress', 'Elementor', 'PHP', 'HTML', 'CSS'],
     projectLink: '/case-study/cobalt-health'
   },
   {
-    imgSrc: '/images/project-5.jpg',
+    imgSrc: '/images/oluolu-image.jpg',
     title: 'Olu Olu Foods',
     tags: ['Shopify', 'CSS'],
     projectLink: '/case-study/olu-olu-foods'
   },
   {
-    imgSrc: '/images/project-6.jpg',
+    imgSrc: '/images/hot-off-the-wok-image.png',
     title: 'Hot Off The Wok',
     tags: ['PHP', 'HTML', 'CSS', 'Javascript', 'jQuery'],
     projectLink: '/case-study/hot-of-the-wok'
