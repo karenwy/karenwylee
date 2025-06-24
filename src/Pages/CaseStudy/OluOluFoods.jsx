@@ -94,7 +94,7 @@ const OluOluFoods = () => {
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Solution</h2>
-              <p className='mb-2'>We designed and built a responsive, modern website that brings Olu Olu Foods’ rich heritage and product offering to life. Using the popular eCommerce platform, Shopify. </p>
+              <p className='mb-2'>We designed and built a responsive, modern website that brings Olu Olu Foods' rich heritage and product offering to life. Using the popular eCommerce platform, Shopify. </p>
               <p>The solution focused on:</p>
               <ul className='list-disc list-inside grid gap-2 mt-2'>
                 <li>A newly established user-friendly product catalogue, sorted by snacks, sauces, pantry essentials and vegan options (large coconut range) - to name a few</li>

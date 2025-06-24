@@ -106,10 +106,10 @@ const Cake = () => {
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Solution</h2>
-              <p className='mb-2'>The solution came in the form of an interactive web-based calculator that allows users to input the type of cake or snack they’ve consumed and receive an estimated calculation of how long they’d need to type to burn those calories off. </p>
+              <p className='mb-2'>The solution came in the form of an interactive web-based calculator that allows users to input the type of cake or snack they've consumed and receive an estimated calculation of how long they'd need to type to burn those calories off. </p>
               <p>Key features of the solution:</p>
               <ul className='list-disc list-inside grid gap-2 mt-2'>
-                <li><b>Snack Selection</b>: A list of cakes and snacks commonly found in office environments, such as a victoria sponge (there’s at least one birthday each month!), cheeky weekend brownie from the office baker, or a simple all-round favourite; chocolate digestive biscuit.</li>
+                <li><b>Snack Selection</b>: A list of cakes and snacks commonly found in office environments, such as a victoria sponge (there's at least one birthday each month!), cheeky weekend brownie from the office baker, or a simple all-round favourite; chocolate digestive biscuit.</li>
                 <li><b>Typing Speed</b>: The results show three speed variations to accommodate for different levels of typing (calculated using standard typing metrics), to estimate how long they would need to type to work off the snack.</li>
                 <li><b>Tongue and cheek</b>: The fun element comes through in the form of engaging illustrations and informal language. For instance, the typing speed/level of expertise is denoted as sloth, basis b*tch and fast af.</li>
               </ul>
@@ -117,7 +117,7 @@ const Cake = () => {
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Design & User Experience</h2>
-              <p className='mb-2'>The design of the website is simple, clean, and fun, incorporating bright colors and playful fonts that reflect the lighthearted nature of the site. A user-friendly interface ensures that visitors don’t have to scroll or click through too many pages to get to the results.</p>
+              <p className='mb-2'>The design of the website is simple, clean, and fun, incorporating bright colors and playful fonts that reflect the lighthearted nature of the site. A user-friendly interface ensures that visitors don't have to scroll or click through too many pages to get to the results.</p>
               <p>Key design elements include:</p>
               <ul className='list-disc list-inside grid gap-2 mt-2'>
                 <li><b>Minimalist Interface</b>: A single page design where users can easily access the calculator and its features. Snack selection is in the center of the homepage and with one click you are taken to the results page.</li>
@@ -128,7 +128,7 @@ const Cake = () => {
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Technical Implementation</h2>
-              <p className='mb-2'>The website’s core function relies on a straightforward calculation mechanism based on calories, typing speed, and snack type.</p>
+              <p className='mb-2'>The website's core function relies on a straightforward calculation mechanism based on calories, typing speed, and snack type.</p>
               <p>The following were used to bring this project to life:</p>
               <ul className='list-disc list-inside grid gap-2 mt-2'>
                 <li><b>Frontend Technologies</b>: HTML, CSS, JavaScript for smooth interaction and animations.</li>

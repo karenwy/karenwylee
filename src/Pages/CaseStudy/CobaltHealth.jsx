@@ -79,7 +79,7 @@ const CobaltHealth = () => {
             </div>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Main site</h2>
-              <p className='mb-2'>10 Yetis designed and developed a new website for Cobalt on the WordPress Content Management System (CMS). Using a popular CMS allowed us to include lots of required functionality which could be easily updated over time. It also allows Cobalt's internal team to make edits to the content very simply and quickly.</p>
+              <p className='mb-2'>We designed and developed a new website for Cobalt on the WordPress Content Management System (CMS). Using a popular CMS allowed us to include lots of required functionality which could be easily updated over time. It also allows Cobalt's internal team to make edits to the content very simply and quickly.</p>
               <p className='mb-4'>When we started the project we studied the original website's research and statistics, and created a more modern site that improved user experience and made the content easier to digest. To do this we focused on making important CTAs stand out, added user-friendly navigation, included interactive elements such as animation and condensed down the amount of content on the site.</p>
               <p>The site can be viewed here: <a href="https://www.cobalthealth.co.uk/" target='_blank' className='underline'>https://www.cobalthealth.co.uk/</a></p>
             </div>
