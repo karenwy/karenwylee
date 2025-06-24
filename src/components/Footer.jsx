@@ -86,7 +86,7 @@ const Footer = () => {
               </ul>
             </div>
 
-            <div>
+            {/* <div>
               <p className="mb-2 reveal-up">Socials</p>
               <ul>
                 {
@@ -97,7 +97,7 @@ const Footer = () => {
                   ))
                 }
               </ul>
-            </div>
+            </div> */}
 
           </div>
 
