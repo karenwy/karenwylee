@@ -89,7 +89,7 @@ const Navbar = ({ NavOpen }) => {
       {
         isCaseStudy ? 
         <>
-          <a href={navItems[0].link} key={navItems[0].key} ref={navItems[0].ref} className="nav-link">
+          <a href="/" key={navItems[0].key} ref={navItems[0].ref} className="nav-link">
             {navItems[0].label}
           </a>
           {
