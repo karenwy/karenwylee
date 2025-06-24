@@ -76,7 +76,7 @@ const Alertr = () => {
                 <source src="/images/alertr-howto-web.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <img src="/images/alertr-logo-white.png" alt="alertr logo" />
+              <img className="hidden md:block" src="/images/alertr-logo-white.png" alt="alertr logo" />
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p>Alertr aims to make online shopping smarter, more convenient, and cost-effective. By offering users an easy-to-use tool to track products and get real-time alerts when prices drop.</p>
