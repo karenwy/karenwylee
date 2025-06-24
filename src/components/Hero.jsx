@@ -31,9 +31,10 @@ const Hero = () => {
           </h2>
 
           <div className="flex item-center gap-3">
-            <ButtonPrimary 
+            <a href="karen-lee-cv.pdf" target="_blank" alt="Karen Lee CV"><ButtonPrimary 
               label="Download CV" icon="download"
             />
+            </a>
             <a href="#about"><ButtonOutline
               label="View more" icon="keyboard_arrow_down"
             />
