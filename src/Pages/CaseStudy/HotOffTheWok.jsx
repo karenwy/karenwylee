@@ -62,9 +62,22 @@ const HotOffTheWok = () => {
                     </span>
                   ))
                 }
+                <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                  <a href="https://hotoffthewok.co.uk/" target='_blank'>Visit site 
+                  <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
+                    open_in_new
+                  </span>
+                  </a>
+                </span>
             </div>
+            <video className="rounded-xl mb-4 flex justify-center" controls autoPlay muted>
+              <source src="/images/hot-off-the-wok-vid-compressed.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
-              <p>Lee Kum Kee (LKK) is a global sauce brand, focusing heavily on authentic Asian and Chinese sauces. LKK sauces are a popular choice and are available in all leading supermarket chains, including Tesco, Sainsbury's, Waitrose, Asda, Morrisons as well as all Chinese grocery shops and cash and carries.</p>
+              <p className='mb-2'>Lee Kum Kee (LKK) is a global sauce brand, focusing heavily on authentic Asian and Chinese sauces. Their are the inventors of Oyster Sauce. LKK sauces are a popular choice and are available in all leading supermarket chains, including Tesco, Sainsbury's, Waitrose, Asda, Morrisons as well as all Chinese grocery shops and cash and carries.</p>
+              <p>Hot Off the Wok is a standalone site, focusing on the mini-series with celebrity chef Ching He Huang.</p>
+              <a href="https://hotoffthewok.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
             </div>
             <div className='reveal-up mb-6'>
               <p className='mb-2'>When LKK collaborated with celebrity chef Ching He Huang on a 'Hot Off the Wok' mini-series we helped create a site focusing on this series.</p>

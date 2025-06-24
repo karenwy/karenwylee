@@ -62,11 +62,22 @@ const OluOluFoods = () => {
                   </span>
                 ))
               }
+              <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                  <a href="https://oluolufoods.com/" target='_blank'>Visit site 
+                  <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
+                    open_in_new
+                  </span>
+                  </a>
+                </span>
+            </div>
+            <div className='mb-4'>
+              <img src='/images/olu-olu-mockups-collage.png' alt="Olu Olu site mockups"/>
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4">
                 <p className="text-zinc-300 md:text-lg">
                   Olu Olu Foods is a family-owned business with over 40 years' experience supplying authentic Afro-Caribbean food products across the UK and beyond. As the brand grew in both retail and wholesale sectors, their digital presence needed to evolve too. 
                 </p>
+              <a href="https://oluolufoods.com/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
             </div>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Challenge</h2>
@@ -120,7 +131,7 @@ const OluOluFoods = () => {
               </ul>
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
-            <h3 className='mb-6'>If you want to learn more or give it a try, visit <a href="https://workyourcakeoff.co.uk/" target="_blank" className='underline'>https://workyourcakeoff.co.uk/</a>.</h3>
+            <h3 className='mb-6'>Explore the rich and vibrant Afro-Caribben culture and produce at <a href="https://oluolufoods.com/" target="_blank" className='underline'>oluolufoods.com</a>.</h3>
           </div>
         </section>
         <Contact />

@@ -25,6 +25,7 @@ import Header from "../../components/Header";
 import Contact from "../../components/Contact";
 import Footer from "../../components/Footer";
 import { works } from '../../components/Work';
+import { ButtonOutline } from '../../components/Button';
 
 const Cake = () => {
   useGSAP(() => {
@@ -62,7 +63,15 @@ const Cake = () => {
                   </span>
                 ))
               }
+              <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                <a href="https://workyourcakeoff.co.uk/" target='_blank'>Visit site 
+                <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
+                  open_in_new
+                </span>
+                </a>
+              </span>
             </div>
+            
             <div className='grid place-items-center md:grid-cols-2 gap-2'>
               <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted>
                 <source src="/images/cake-vid.mp4" type="video/mp4" />
@@ -77,7 +86,7 @@ const Cake = () => {
                 <p className="text-zinc-300 md:text-lg mb-2">
                   The "Cake Calorie Calculator" website is a playful yet insightful tool designed to help users estimate how long they would need to type to burn off the calories from a variety of snacks that may be consumed at the office (or home office). 
                 </p>
-                <a href="https://workyourcakeoff.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded" aria-hidden="true">open_in_new</span></a>
+                <a href="https://workyourcakeoff.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
             </div>
             <div className='mb-6 reveal-up'>
               <p>This was created in response to a current topic of interest and needed to be developed swiftly as a reactive project in collaboration with the PR team. The site was completed in just two days, which included design prototypes and development. I worked closely with the designer to ensure that both the visual design and functionality met a high standard.</p>

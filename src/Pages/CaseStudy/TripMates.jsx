@@ -62,6 +62,13 @@ const TripMakes = () => {
                     </span>
                   ))
                 }
+                <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                  <a href="https://tripmates.co.uk/" target='_blank'>Visit site 
+                  <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
+                    open_in_new
+                  </span>
+                  </a>
+                </span>
             </div>
             <div className='mb-4'>
               <img src='/images/trip-mates-mockups.png' alt="trip mates mockups"/>
@@ -69,6 +76,7 @@ const TripMakes = () => {
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p className='mb-2'>Trip Mates was created for our client, <a href="https://www.hotukdeals.com/" target='_blank' className='underline'>hotukdeals</a>. It was built to simplify the chaos of group holiday planning. Whether it's a weekend escape, a summer trip abroad, or a team-building retreat, Trip Mates helps users effortlessly align on destinations, dates, duration, activities, and budget. No more endless message threads, miscommunication, or indecision.</p>
               <p>Gathering all the submissions and summarising it, the tool slogan is; “Just tell us what information you need, and we'll handle the rest!”</p>
+              <a href="https://tripmates.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>    
             </div>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Challenge</h2>

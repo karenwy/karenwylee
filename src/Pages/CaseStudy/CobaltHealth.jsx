@@ -62,9 +62,20 @@ const CobaltHealth = () => {
                     </span>
                   ))
                 }
+                <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                  <a href="https://www.cobalthealth.co.uk/" target='_blank'>Visit site 
+                  <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
+                    open_in_new
+                  </span>
+                  </a>
+                </span>
+            </div>
+            <div className='mb-4'>
+              <img src='/images/cobalt-health-mockups.png' alt="Cobalt Health site mockups"/>
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p>Cobalt Health (Cobalt) is a medical charity providing diagnostic imaging to support the NHS and other healthcare providers, using the very latest state-of-the-art technology. They help 130,000 patients each year through their imaging centres in Cheltenham and Birmingham, using mobile MRI, PET/CT and CT scanners.</p>
+              <a href="https://www.cobalthealth.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
             </div>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Main site</h2>
