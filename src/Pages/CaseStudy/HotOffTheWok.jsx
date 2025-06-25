@@ -70,7 +70,7 @@ const HotOffTheWok = () => {
                   </a>
                 </span>
             </div>
-            <video className="rounded-xl mb-4 flex justify-center" controls autoPlay muted>
+            <video className="rounded-xl mb-4 flex justify-center" controls autoPlay muted playsInline>
               <source src="/images/hot-off-the-wok-vid-compressed.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>

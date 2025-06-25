@@ -53,7 +53,7 @@ const OluOluFoods = () => {
       <main>
         <section id="CaseStudy" className="section">
           <div className="container">
-            <h1 className='headline-1 mb-2'>Case Study: Olu Olu Foods – Authentic and ethically sourced Afro-Caribbean produce</h1>
+            <h1 className='headline-1 mb-2'>Case Study: Olu Olu Foods - Authentic and ethically sourced Afro-Caribbean produce</h1>
             <div className="flex flex-wrap items-center gap-2 mb-8">
               {
                 works[4].tags.map((label, key) => (
@@ -71,11 +71,11 @@ const OluOluFoods = () => {
                 </span>
             </div>
             <div className='mb-4'>
-              <img src='/images/olu-olu-mockups-collage.png' alt="Olu Olu site mockups"/>
+              <img src='/images/oluolu-mockup-devices-mix.png' alt="Olu Olu site mockups devices mix"/>
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4">
                 <p className="text-zinc-300 md:text-lg">
-                  Olu Olu Foods is a family-owned business with over 40 years' experience supplying authentic Afro-Caribbean food products across the UK and beyond. As the brand grew in both retail and wholesale sectors, their digital presence needed to evolve too. 
+                  Olu Olu Foods is a family-owned business with over 40 years experience supplying authentic Afro-Caribbean food products across the UK and beyond. As the brand grew in both retail and wholesale sectors, their digital presence needed to evolve too. 
                 </p>
               <a href="https://oluolufoods.com/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
             </div>
@@ -105,6 +105,9 @@ const OluOluFoods = () => {
                 <li>Optimised SEO and content structure to improve discoverability and effectively communicate key information</li>
               </ul>
             </div>
+            <div className='mb-4 reveal-up'>
+              <img src='/images/oluolu-mockup-devices-1.png' alt="Olu Olu site mockups devices 1"/>
+            </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Design & User Experience</h2>
@@ -116,6 +119,9 @@ const OluOluFoods = () => {
                 <li><b>Ease of purchase</b>: A seamless shopping journey from discovery to checkout</li>
                 <li><b>Interactive Elements</b>: Clear call-to-actions and subtle animations keep the user journey dynamic but not overwhelming, maintaining a balance between engagement and functionality</li>
               </ul>
+            </div>
+            <div className='mb-4 reveal-up'>
+              <img src='/images/oluolu-mockup-devices-2.png' alt="Olu Olu site mockups devices 2"/>
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
@@ -130,8 +136,7 @@ const OluOluFoods = () => {
                 <li><b>Newsletter integration</b>: Mailchimp sign-up and campaign tracking</li>
               </ul>
             </div>
-            <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
-            <h3 className='mb-6'>Explore the rich and vibrant Afro-Caribben culture and produce at <a href="https://oluolufoods.com/" target="_blank" className='underline'>oluolufoods.com</a>.</h3>
+            <h3 className='mb-6'>Explore the rich and vibrant Afro-Caribbean culture and produce at <a href="https://oluolufoods.com/" target="_blank" className='underline'>oluolufoods.com</a>.</h3>
           </div>
         </section>
         <Contact />

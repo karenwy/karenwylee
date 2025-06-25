@@ -71,7 +71,7 @@ const TripMakes = () => {
                 </span>
             </div>
             <div className='mb-4'>
-              <img src='/images/trip-mates-mockups.png' alt="trip mates mockups"/>
+              <img src='/images/trip-mates-mockups-devices-mix.png' alt="trip mates mockups devices mix"/>
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p className='mb-2'>Trip Mates was created for our client, <a href="https://www.hotukdeals.com/" target='_blank' className='underline'>hotukdeals</a>. It was built to simplify the chaos of group holiday planning. Whether it's a weekend escape, a summer trip abroad, or a team-building retreat, Trip Mates helps users effortlessly align on destinations, dates, duration, activities, and budget. No more endless message threads, miscommunication, or indecision.</p>
@@ -99,11 +99,14 @@ const TripMakes = () => {
                 <li><b>Tailor made event</b>: Organisers can choose what questions to ask and the multiple choice options.</li>
                 <li><b>Anonymous submissions</b>: Group members can answer honestly with no judgement, as the summary does not show who has answered what.</li>
                 <li><b>Summary</b>: Once the deadline to submit preference has been reached, the application calculates the results by showing either the most popular answers, averages or a list of choices depending on what the questions are.</li>
-                <li><b>Admin dashboard</b>: Allows organisers to see who has and hasn’t submitted their preference yet, and view event summary once the deadline has been reached.</li>
+                <li><b>Admin dashboard</b>: Allows organisers to see who has and hasn't submitted their preference yet, and view event summary once the deadline has been reached.</li>
                 <li><b>Member dashboard</b>: Allows members to submit preferences at a later date and view event summary once the deadline has been reached.</li>
                 <li><b>Email notifications</b>: Group members receive emails to remind them to submit their entries and the deadline to do so.</li>
                 <li><b>Email summaries</b>: Trip organisers are sent emails to inform them how many people have or haven’t submitted entries.</li>
               </ul>
+            </div>
+            <div className='mb-4 reveal-up'>
+              <img src='/images/trip-mates-mockups-devices-1.png' alt="trip mates mockups devices 1"/>
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
@@ -126,6 +129,9 @@ const TripMakes = () => {
                 <li><b>Backend Technologies</b>: PHP, MySQL for data gathering and processing</li>
                 <li><b>Mobile-Responsive Design</b>: The website is fully responsive, making it acessible for all users  from any device (desktop, tablet, or smartphone).</li>
               </ul>
+            </div>
+            <div className='mb-4 reveal-up'>
+              <img src='/images/trip-mates-mockups-devices-2.png' alt="trip mates mockups devices 1"/>
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>

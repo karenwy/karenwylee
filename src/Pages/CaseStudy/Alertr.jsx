@@ -72,11 +72,11 @@ const Alertr = () => {
             </div>
                      
             <div className='grid place-items-center md:grid-cols-2 gap-2'>
-              <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted>
+              <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted playsInline>
                 <source src="/images/alertr-howto-web.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <img className="hidden md:block" src="/images/alertr-logo-white.png" alt="alertr logo" />
+              <img className='w-[450px] rounded-xl mb-4' src="/images/alertr-mockups-devices-mix-square.png" alt="alertr site mockup devices mix" />
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p>Alertr aims to make online shopping smarter, more convenient, and cost-effective. By offering users an easy-to-use tool to track products and get real-time alerts when prices drop.</p>
@@ -101,6 +101,9 @@ const Alertr = () => {
                 <li><b>Real-Time Sale Alerts</b>: When the price of a tracked product drops, Alertr notifies users instantly, via email.</li>
                 <li><b>Customisable Alerts</b>: Alertr allows users to set personalised thresholds, so they only receive alerts when a product reaches a price they're willing to pay.</li>
               </ul>
+            </div>
+            <div className='mb-4 reveal-up'>
+              <img src="/images/alertr-mockups-devices-1.png" alt="alertr site mockup devices 1" />
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
@@ -127,6 +130,9 @@ const Alertr = () => {
                 <li><b>Backend Technologies</b>: PHP, MySQL for data gathering and processing</li>
                 <li><b>Mobile-Responsive Design</b>: The website is fully responsive, making it acessible for all users  from any device (desktop, tablet, or smartphone).</li>
               </ul>
+            </div>
+            <div className='mb-4 reveal-up'>
+              <img src="/images/alertr-mockups-devices-2.png" alt="alertr site mockup devices 2" />
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>

@@ -73,11 +73,11 @@ const Cake = () => {
             </div>
             
             <div className='grid place-items-center md:grid-cols-2 gap-2'>
-              <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted>
+              <video className='w-[450px] rounded-xl mb-4' controls autoPlay muted playsInline>
                 <source src="/images/cake-vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-              <video className='w-[450px] rounded-xl mb-4 hidden md:block' controls autoPlay muted loop>
+              <video className='w-[450px] rounded-xl mb-4 hidden md:block' controls autoPlay muted loop playsInline>
                 <source src="/images/cake-load-vid.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
@@ -114,6 +114,11 @@ const Cake = () => {
                 <li><b>Tongue and cheek</b>: The fun element comes through in the form of engaging illustrations and informal language. For instance, the typing speed/level of expertise is denoted as sloth, basis b*tch and fast af.</li>
               </ul>
             </div>
+            
+            <div className='mb-4 reveal-up'>
+              <img src='/images/cake-mockups-devices-1.png' alt="Cake calculator site mockups devices 1"/>
+            </div>
+            <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Design & User Experience</h2>
