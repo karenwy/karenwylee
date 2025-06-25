@@ -94,7 +94,7 @@ body {
 }
 
 .nav-link {
-  @apply grid items-center h-8 px-3 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 transition-colors
+  @apply grid items-center h-8 px-2 xl:px-3 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 transition-colors
 }
 
 .nav-link.active {
