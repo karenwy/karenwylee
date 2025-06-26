@@ -8,9 +8,9 @@
  */
 import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
-import { NavLink, useLocation } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import { works } from "./Work";
-import { HashLink } from "react-router-hash-link";
+import { HashLink, NavHashLink } from "react-router-hash-link";
 
 const Navbar = ({ NavOpen }) => {
 
@@ -99,7 +99,7 @@ const Navbar = ({ NavOpen }) => {
             // <a href={projectLink} key={key} className="nav-link" onClick={activeCurrentLink}>
             //   {title}
             // </a>
-            <NavLink to={projectLink} key={key} className="nav-link">{title}</NavLink>
+            <NavHashLink to={projectLink + "#top"} key={key} className="nav-link">{title}</NavHashLink>
           ))
         }
         </>          
