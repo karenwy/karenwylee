@@ -10,6 +10,7 @@ import { useEffect, useRef } from "react";
 import PropTypes from "prop-types";
 import { NavLink, useLocation } from "react-router-dom";
 import { works } from "./Work";
+import { HashLink } from "react-router-hash-link";
 
 const Navbar = ({ NavOpen }) => {
 
@@ -89,9 +90,9 @@ const Navbar = ({ NavOpen }) => {
       {
         isCaseStudy ? 
         <>
-          <a href="/" key={navItems[0].key} ref={navItems[0].ref} className="nav-link">
+          <HashLink to={navItems[0].link} key={navItems[0].key} ref={navItems[0].ref} className="nav-link">
             {navItems[0].label}
-          </a>
+          </HashLink>
           {
           works.map(({ title, projectLink, ref }, key) => 
           (
@@ -110,7 +111,7 @@ const Navbar = ({ NavOpen }) => {
           // <a href={link} key={key} ref={ref} className={className} onClick={activeCurrentLink}>
           //   {label}
           // </a>
-          <a href={link} key={key} className={className} onClick={activeCurrentLink}>{label}</a>
+          <HashLink to={link} key={key} className={className} onClick={activeCurrentLink}>{label}</HashLink>
         ))
         }
         

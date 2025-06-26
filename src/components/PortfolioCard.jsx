@@ -8,6 +8,7 @@
  */
 import PropTypes from "prop-types";
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link";
 
 const PortfolioCard = ({
   imgSrc, 
@@ -47,9 +48,9 @@ const PortfolioCard = ({
         </div>
       </div>
 
-      <Link to={projectLink} className="absolute inset-0">
+      <HashLink to={projectLink + "#top"} className="absolute inset-0">
           
-      </Link>
+      </HashLink>
 
     </div>
   )

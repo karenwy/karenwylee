@@ -92,7 +92,7 @@ const Alertr = () => {
               </ul>
             </div>
             <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
-            <div className='reveal-up mb-6'>
+            <div className='reveal-up mb-6' id="solution">
               <h2 className='headline-2 mb-4'>Solution</h2>
               <p className='mb-2'>Alertr addresses these challenges by providing an intuitive platform that tracks products and alerts users when prices drop. The system is designed to make the shopping process more efficient and user-friendly, ensuring that customers never miss out on the best deals again.</p>
               <p>Core features:</p>

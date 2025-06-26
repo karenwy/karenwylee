@@ -6,7 +6,8 @@
 /**
  * Components
  */
-import { ButtonPrimary } from "./Button";
+import { ButtonPrimary } from "./Button"; 
+import { HashLink } from "react-router-hash-link";
 
 const sitemap = [
   {
@@ -127,7 +128,7 @@ const Footer = () => {
                 {
                   sitemap.map(({label, href}, key) => (
                     <li key={key}>
-                      <a href={href} className="block text-sm text-zinc-400 py-0.5 transistion-colors hover:text-zinc-200 reveal-up">{label}</a>
+                      <HashLink smooth to={href} className="block text-sm text-zinc-400 py-0.5 transistion-colors hover:text-zinc-200 reveal-up">{label}</HashLink>
                     </li>
                   ))
                 }
@@ -140,7 +141,7 @@ const Footer = () => {
                 {
                   caseStudies.map(({label, href}, key) => (
                     <li key={key}>
-                      <a href={href} className="block text-sm text-zinc-400 py-0.5 transistion-colors hover:text-zinc-200 reveal-up">{label}</a>
+                      <HashLink to={href + "#top"} className="block text-sm text-zinc-400 py-0.5 transistion-colors hover:text-zinc-200 reveal-up">{label}</HashLink>
                     </li>
                   ))
                 }
