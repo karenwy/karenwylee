@@ -139,7 +139,6 @@ const OluOluFoods = () => {
             <h3 className='mb-6'>Explore the rich and vibrant Afro-Caribbean culture and produce at <a href="https://oluolufoods.com/" target="_blank" className='underline'>oluolufoods.com</a>.</h3>
           </div>
         </section>
-        <Contact />
       </main>
       <Footer />
     </ReactLenis>

@@ -98,7 +98,6 @@ const CobaltHealth = () => {
             </div>
           </div>
         </section>
-      <Contact />
       </main>
       <Footer />
     </ReactLenis>

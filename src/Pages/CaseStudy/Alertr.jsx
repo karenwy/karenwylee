@@ -146,7 +146,6 @@ const Alertr = () => {
             <h3 className='mb-6'>Start tracking and get the best deals now on <a href="https://alertr.co.uk" target="_blank" className='underline'>https://alertr.co.uk</a>.</h3>
           </div>
         </section>
-      <Contact />
       </main>
       <Footer />
     </ReactLenis>

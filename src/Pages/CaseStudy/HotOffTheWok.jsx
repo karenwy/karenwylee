@@ -87,7 +87,6 @@ const HotOffTheWok = () => {
             </div>
           </div>
         </section>
-      <Contact />
       </main>
       <Footer />
     </ReactLenis>

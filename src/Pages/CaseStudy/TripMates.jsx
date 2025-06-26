@@ -147,7 +147,6 @@ const TripMakes = () => {
             <h3 className='mb-6'>Ready to take the stress out of group travel? Visit <a href="https://tripmates.co.uk" target="_blank" className='underline'>https://tripmates.co.uk</a> and start planning today.</h3>
           </div>
         </section>
-      <Contact />
       </main>
       <Footer />
     </ReactLenis>

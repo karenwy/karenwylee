@@ -152,7 +152,6 @@ const Cake = () => {
             <h3 className='mb-6'>If you want to learn more or give it a try, visit <a href="https://workyourcakeoff.co.uk/" target="_blank" className='underline'>https://workyourcakeoff.co.uk/</a>.</h3>
           </div>
         </section>
-        <Contact />
       </main>
       <Footer />
     </ReactLenis>

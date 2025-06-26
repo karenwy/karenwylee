@@ -59,7 +59,6 @@ const Home = () => {
         <Skills />
         <Work />
         <Review />
-        <Contact />
       </main>
       <Footer />
     </ReactLenis>
