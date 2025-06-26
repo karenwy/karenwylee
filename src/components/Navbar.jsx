@@ -79,7 +79,7 @@ const Navbar = ({ NavOpen }) => {
     },
     {
       label: 'Contact',
-      link: '/#contact',
+      link: '/#footer',
       className: 'nav-link md:hidden!'
     }
   ];

@@ -36,7 +36,7 @@ const Header = () => {
           </button>
           <Navbar NavOpen={navOpen} />
         </div>
-        <a href='#contact' className="btn btn-secondary max-lg:hidden! lg:justify-self-end">
+        <a href='#footer' className="btn btn-secondary max-lg:hidden! lg:justify-self-end">
           Contact Me
         </a>
       </div>
