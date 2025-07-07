@@ -102,8 +102,12 @@ const Footer = () => {
         
         <div className="lg:grid grid-cols-2">
           <div className="mb-10">
-            <h2 className="headline-1 mb-8 lg:max-w-[12ch] reveal-up">Let's Connect</h2>
-
+            <h2 className="headline-1 lg:max-w-[12ch] reveal-up">Let's Connect</h2>
+            <p className="mb-8 reveal-up">
+              <a href="mailto:contact@karenwylee.co.uk" className="text-sm text-zinc-400 transistion-colors hover:text-zinc-200">
+              contact@karenwylee.co.uk
+            </a>
+            </p>
             <ButtonPrimary 
               href="mailto:contact@karenwylee.co.uk"
               label="Send me an email"
