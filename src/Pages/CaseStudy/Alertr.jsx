@@ -62,13 +62,13 @@ const Alertr = () => {
                     </span>
                   ))
                 }
-                <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
+                {/* <span className="h-8 text-sm ring-1 ring-inset ring-violet-300/50 grid items-center px-3 rounded-lg">
                   <a href="https://alertr.co.uk/" target='_blank'>Visit site 
                   <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">
                     open_in_new
                   </span>
                   </a>
-                </span>
+                </span> */}
             </div>
                      
             <div className='grid place-items-center md:grid-cols-2 gap-2'>
@@ -80,7 +80,7 @@ const Alertr = () => {
             </div>
             <div className="bg-zinc-800/50 p-6 rounded-2xl md:p-12 mb-4 text-zinc-300 md:text-lg">
               <p>Alertr aims to make online shopping smarter, more convenient, and cost-effective. By offering users an easy-to-use tool to track products and get real-time alerts when prices drop.</p>
-              <a href="https://alertr.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a>
+              {/* <a href="https://alertr.co.uk/" target="_blank" className='underline'>Visit site <span className="material-symbols-rounded text-lg! leading-5.5 ml-0.5" aria-hidden="true">open_in_new</span></a> */}
             </div>
             <div className='reveal-up mb-6'>
               <h2 className='headline-2 mb-4'>Challenge</h2>
@@ -142,8 +142,8 @@ const Alertr = () => {
                 <li>Mobile App: Provide an even more accessible and convenient shopping experience for users on the go.</li>
               </ul>
             </div>
-            <hr className="h-px mb-6 bg-zinc-600 border-0"></hr>
-            <h3 className='mb-6'>Start tracking and get the best deals now on <a href="https://alertr.co.uk" target="_blank" className='underline'>https://alertr.co.uk</a>.</h3>
+            {/* <hr className="h-px mb-6 bg-zinc-600 border-0"></hr> */}
+            {/* <h3 className='mb-6'>Start tracking and get the best deals now on <a href="https://alertr.co.uk" target="_blank" className='underline'>https://alertr.co.uk</a>.</h3> */}
           </div>
         </section>
       </main>
