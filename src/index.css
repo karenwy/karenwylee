@@ -131,7 +131,7 @@ body {
   @apply h-11 border-2 border-violet-300 bg-zinc-800 hover:bg-zinc-700 active:bg-zinc-800
 }
 
-/* Teaxt field */
+/* Text field */
 
 .label {
   @apply block text-zinc-200 text-sm font-normal mb-2
