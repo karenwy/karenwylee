@@ -28,4 +28,4 @@ jobs:
           username: karen@karenwylee.co.uk
           password: ${{ secrets.FTP_PASSWORD }}
           local-dir: dist/
-          server-dir: /karenwylee.co.uk/public_html
+          server-dir: /karenwylee.co.uk/public_html/
